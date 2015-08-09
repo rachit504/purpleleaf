@@ -1,0 +1,14 @@
+To run the webapp:
+- npm install
+- Start mongodb server daemon
+- npm start
+
+Basic Setup Guide: http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+MongoDB
+- Tutorial: http://www.tutorialspoint.com/mongodb/index.htm
+- To start mongodb server daemon: Go to the place mongodb exists (in Program Files/MongoDB/Server/3.0/bin/mongod) and "mongod --dbpath purpleleaf/webapp/data/"
+- To start client: Go to mongodb directory and run "mongo" 
+
+TODO
+- Setup MongoDB UI: https://www.npmjs.com/package/mongo-express
